@@ -1,0 +1,169 @@
+body {
+    background-color: #F8B622;
+}
+
+.bgImage {
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+    width: 850px;
+}
+
+.mos {
+    width: 399px;
+    position: absolute;
+    font-size: 200px;
+    font-family: "Supermercado One", sans-serif;
+    color: #F8B622;
+    display: inline-block;
+    -webkit-text-stroke-width: 10px;
+    -webkit-text-stroke-color: black;
+    margin-top: -750px;
+    margin-left: 990px;
+}
+
+.burgers {
+    width: 399px;
+    position: absolute;
+    font-size: 100px;
+    font-family: "Supermercado One", sans-serif;
+    color: #F8B622;
+    display: inline-block;
+    -webkit-text-stroke-width: 7px;
+    -webkit-text-stroke-color: black;
+    margin-top: -560px;
+    margin-left: 1100px;
+}
+
+.slogan {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    font-size: 52px;
+}
+
+.start {
+    margin-left: 1130px;
+    margin-top: -420px;
+}
+
+.the {
+    margin-left: 1180px;
+    margin-top: -20px;
+}
+
+.day {
+    margin-left: 1220px;
+    margin-top: -20px;
+}
+
+.with {
+    margin-left: 1230px;
+    margin-top: -20px;
+}
+
+.a {
+    margin-left: 1260px;
+    margin-top: -40px;
+}
+
+.burger {
+    margin-left: 1230px;
+    margin-top: -35px;
+}
+
+.rectangle {
+    width: 550px;
+    height: 700px;
+    position: absolute;
+    border-radius: 42px;
+    background-color: black;
+    opacity: 90%;
+    margin-top: -708px;
+    margin-left: 50px;
+}
+
+.login {
+    position: absolute;
+    font-size: 85px;
+    letter-spacing: 0.08em;
+    display: inline-block;
+    font-family: 'Alegreya Sans';
+    color: #fff;
+    margin-left: 145px;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 420px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    width: 280px;
+    margin-bottom: 30px;
+}
+
+.loginBtn {
+    background-color: #926806;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 110px;
+    height: 40px;
+    font-family: 'Alegreya Sans';
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #926806;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 110px;
+    height: 40px;
+    font-family: 'Alegreya Sans';
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+input[placeholder="Enter Username"] {
+    text-align: center;
+    font-size: medium;
+}
+
+input[placeholder="Enter Password"] {
+    text-align: center;
+    font-size: medium;
+}
+
+.loginBtn:hover {
+    background-color: #0048ff;
+}
+
+.admin {
+    color: white;
+    font-family: 'Alegreya Sans';
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.admin:hover {
+    color: rgb(255, 204, 0);
+}
+#error{
+    color: red;
+    margin-bottom: 15px;
+}

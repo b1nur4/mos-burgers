@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="admLogin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya Sans:wght@700&display=swap" />
+</head>
+
+<body>
+    <center><img class="bgImage" src="assets/aac719558aef0f3bf049acb36e02c9bf.png" alt=""></center>
+    <div class="mos">MOS</div>
+    <div class="burgers">BURGERS</div>
+    <div class="slogan">
+        <div class="start">start</div>
+        <div class="the">the</div>
+        <div class="day">day</div>
+        <div class="with">with</div>
+        <div class="a">a</div>
+        <div class="burger">burger</div>
+    </div>
+    <div class="rectangle">
+        <b class="login">LOGIN</b>
+        <form action="login">
+            <label id="error"></label>
+            <input type="text" id="username" name="username" placeholder="Enter Username">
+            <input type="password" id="password" name="password" placeholder="Enter Password">
+            <input type="button" class="loginBtn" onclick="checkLogin()" value="LOGIN">
+            <a class="cashier" href="casLogin.html">CASHIER</a>
+        </form>
+    </div>
+    <script src="admjs.js"></script>
+</body>
+
+</html>
