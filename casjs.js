@@ -5,8 +5,8 @@ function checkLogin(){
     let errorLbl = document.getElementById("error");
     let errorMsg;
 
-    if( username == "cashier" || password =="cashier"){
-        // window.location.href = "menu.html";
+    if( username == "cashier" && password =="cashier"){
+        window.location.href = "casMenu.html";
     }else {
         errorMsg = "Please enter valid username and password.";
         errorLbl.innerHTML = errorMsg;

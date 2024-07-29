@@ -1,0 +1,121 @@
+body{
+    background-color: #F8B622;
+}
+.bgImage {
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+    width: 850px;
+}
+.rectangle {
+    width: 1450px;
+    height: 700px;
+    background-color: black;
+    opacity: 90%;
+    margin-top: -708px;
+    border-radius: 42px;
+}
+.menu{
+    margin-top: -675px;
+    color: white;
+    font-family: 'Alegreya Sans';
+    font-size: 50px;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.items a{
+    background-color: #F9C54E;
+    color: black;
+    font-size: 30px; 
+    font-family: 'Alegreya Sans';
+    border: none; 
+    border-radius: 20px; 
+    cursor: pointer;
+    width: 500px;
+    height: 55px;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin-top: -450px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.box-icon{
+    width: 35px;
+    margin-right: 10px;
+}
+.items a:hover{
+    background-color: #4A370A;
+    color: white;
+    img{
+        filter: invert(1);
+    }
+}
+.regCus a{
+    background-color: #F9C54E;
+    color: black;
+    font-size: 30px; 
+    font-family: 'Alegreya Sans';
+    border: none; 
+    border-radius: 20px; 
+    cursor: pointer;
+    width: 500px;
+    height: 55px;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin-top: -340px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.crowd-icon{
+    width: 40px;
+    margin-right: 10px;
+}
+.regCus a:hover{
+    background-color: #4A370A;
+    color: white;
+    img{
+        filter: invert(1);
+    }
+}
+.orders a{
+    background-color: #F9C54E;
+    color: black;
+    font-size: 30px; 
+    font-family: 'Alegreya Sans';
+    border: none; 
+    border-radius: 20px; 
+    cursor: pointer;
+    width: 500px;
+    height: 55px;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin-top: -230px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.orders-icon{
+    width: 30px;
+    margin-right: 10px;
+}
+.orders a:hover{
+    background-color: #4A370A;
+    color: white;
+    img{
+        filter: invert(1);
+    }
+}

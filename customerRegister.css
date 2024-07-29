@@ -1,0 +1,118 @@
+body{
+    background-color: #F8B622;
+}
+.rectangle {
+    width: 1450px;
+    height: 700px;
+    background-color: black;
+    opacity: 90%;
+    border-radius: 42px;
+    position: relative;
+    z-index: -1;
+}
+.title{
+    margin-top: -665px;
+    color: white;
+    font-family: 'Alegreya Sans';
+    font-size: 46px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    letter-spacing: 5PX;
+    width: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -450px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.cusID{
+    margin-top: -550px;
+    position: absolute;
+    height: 30px;
+    border-radius: 40px;
+    width: 120px;
+    caret-color: transparent;
+    margin-left: 250px;
+    font-family: 'Alegreya Sans';
+    font-size: 20px;
+}
+.fname, .cnum, .addr, .emadd {
+    color: white;
+    font-family: 'Alegreya Sans';
+    font-size: 40px;
+    margin-right: 20px;
+}
+.ftext{
+    height: 30px;
+    border-radius: 15px;
+    width: 625px;
+    margin-left: 200px;
+    font-family: 'Alegreya Sans';
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.ctext{
+    height: 30px;
+    border-radius: 15px;
+    width: 625px;
+    margin-left: 100px;
+    font-family: 'Alegreya Sans';
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.addtext{
+    height: 30px;
+    border-radius: 15px;
+    width: 625px;
+    margin-left: 235px;
+    font-family: 'Alegreya Sans';
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.emtext{
+    height: 30px;
+    border-radius: 15px;
+    width: 625px;
+    margin-left: 135px;
+    font-family: 'Alegreya Sans';
+    font-size: 20px;
+}
+.buttons{
+    margin-top: 50px;
+}
+.btnAddCustomer{
+    background-color: #FCDB91;
+    width: 250px;
+    border: 0;
+    font-family: 'Alegreya Sans';
+    font-size: 30px;
+    border-radius: 30px;
+    margin-right: 30px;
+    height: 45px;
+    cursor: pointer;
+}
+.btnBackToHome{
+    background-color: #553b00;
+    width: 250px;
+    border: 0;
+    font-family: 'Alegreya Sans';
+    font-size: 30px;
+    border-radius: 30px;
+    margin-left: 30px;
+    height: 45px;
+    cursor: pointer;
+    color: white;
+}
+.btnAddCustomer:hover{
+    background-color: #0aa1059a;
+    color: white;
+}
+.btnBackToHome:hover{
+    background-color: #d99b16;
+    color: black;
+}

@@ -26,62 +26,31 @@ body{
     transform: translateX(-50%);
     text-align: center;
 }
-.items a{
+.cusreg a{
     background-color: #F9C54E;
     color: black;
     font-size: 30px; 
     font-family: 'Alegreya Sans';
     border: none; 
-    border-radius: 10px; 
+    border-radius: 20px; 
     cursor: pointer;
     width: 500px;
-    height: 45px;
+    height: 55px;
     text-decoration: none;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    margin-top: -450px;
+    margin-top: -410px;
     justify-content: center;
     align-items: center;
     display: flex;
 }
-.box-icon{
+.cus-icon{
     width: 35px;
     margin-right: 10px;
 }
-.items a:hover{
-    background-color: #4A370A;
-    color: white;
-    img{
-        filter: invert(1);
-    }
-}
-.regCus a{
-    background-color: #F9C54E;
-    color: black;
-    font-size: 30px; 
-    font-family: 'Alegreya Sans';
-    border: none; 
-    border-radius: 10px; 
-    cursor: pointer;
-    width: 500px;
-    height: 45px;
-    text-decoration: none;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    margin-top: -340px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-.crowd-icon{
-    width: 40px;
-    margin-right: 10px;
-}
-.regCus a:hover{
+.cusreg a:hover{
     background-color: #4A370A;
     color: white;
     img{
@@ -91,19 +60,19 @@ body{
 .orders a{
     background-color: #F9C54E;
     color: black;
-    font-size: 30px; 
+    font-size: 35px; 
     font-family: 'Alegreya Sans';
     border: none; 
-    border-radius: 10px; 
+    border-radius: 20px; 
     cursor: pointer;
     width: 500px;
-    height: 45px;
+    height: 55px;
     text-decoration: none;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    margin-top: -230px;
+    margin-top: -300px;
     justify-content: center;
     align-items: center;
     display: flex;
