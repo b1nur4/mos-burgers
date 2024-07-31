@@ -1,0 +1,104 @@
+body{
+    background-color: #F8B622;
+}
+.rectangle {
+    width: 1450px;
+    height: 700px;
+    background-color: black;
+    opacity: 90%;
+    border-radius: 42px;
+    position: relative;
+    z-index: -1;
+}
+.title{
+    margin-top: -665px;
+    color: white;
+    font-family: 'Alegreya Sans';
+    font-size: 46px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    letter-spacing: 5PX;
+    width: 100%;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin-top: -575px;
+    height: 38px;
+    margin-left: 100px;
+}
+.btnBurgers, .btnSubmarines, .btnFries, .btnPasta, .btnChicken, .btnBeverages{
+    background-color: #FBD37A;
+    border: 0;
+    margin-right: 25px;
+    border-radius: 20px;
+    width: 135px;
+    font-family: 'Alegreya Sans';
+    font-size: 23px;
+    cursor: pointer;
+}
+.btnBurgers:hover, .btnSubmarines:hover, .btnFries:hover, .btnPasta:hover, .btnChicken:hover, .btnBeverages:hover {
+    background-color: #0652DD;
+    color: white;
+}
+.srchBar{
+    width: 500px;
+    height: 35px;
+    border-radius: 20px;
+    margin-left: 250px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Alegreya Sans';
+    font-size: 20px;
+}
+.items{
+    width: 800px;
+    height: 430px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 100px;
+    margin-top: 25px;
+    overflow: visible;
+    display: flex;
+}
+.B1001{
+    width: 190px;
+    height: 225px;
+    background-color: rgb(158, 154, 154);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    position: relative;
+}
+.B1001 img{
+    width: 170px;
+    height: 130px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.B1001 h3{
+    margin-top: 2px;
+    margin-left: 5px;
+    font-family: 'Alegreya Sans';
+    margin-bottom: 0;
+}
+.B1001 p{
+    font-family: 'Alegreya Sans';
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.orderB1001{
+    width: 80px;
+    margin-top: 7px;
+    background-color: #191203;
+    color: white;
+    border: 0;
+    font-family: 'Alegreya Sans';
+    height: 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.orderB1001:hover{
+    background-color: #0652DD;
+}
